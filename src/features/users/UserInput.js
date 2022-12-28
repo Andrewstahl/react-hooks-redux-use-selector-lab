@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 
 function UserInput() {
   const dispatch = useDispatch();
-
+  
   const [formData, setFormData] = useState({
     username: "",
     hometown: "",
